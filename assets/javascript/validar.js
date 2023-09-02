@@ -4,7 +4,7 @@ function entrar(){
     erro = document.getElementById("menssagem-de-erro")
     error = document.querySelector("#menssagem-de-erro")
     user = "Admin";
-    pass = "12345";
+    pass = "@carteirinha7";
 
     if(user === "" || senha === ""){
         error.innerHTML = "Preencha todos os campos!"
