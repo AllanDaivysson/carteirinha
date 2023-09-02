@@ -30,6 +30,10 @@ body{
     
 }
 
+.informacoes{
+    text-decoration: none;
+    color: black
+}
 
 
 .area-imagem img{
