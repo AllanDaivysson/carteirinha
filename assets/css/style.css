@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+:root{
+    --fontstyle: 'Nunito Sans',sans-serif;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    body{
+        background-color: #2c2c2e;
+    }
+    
+    .form{
+        width: 320px;
+
+    
+    }
+
+}
+
+@media screen and (min-width: 401px) {
+    .form{
+        width: 400px;
+        padding: 70px 30px 70px 30px;
+        border-radius: 10px;
+        box-shadow: 0px 15px 20px 0px #8F7CEC;
+    }
+
+    body{
+        background-color: #2c2c2e;
+    }
+
+}
+
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: var(--fontstyle);
+}
+
+.form{
+    background-color: #2c2c2e;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.user-box{
+    width: 100%;
+    margin: 30px 0;
+    position: relative;
+}
+
+.user-box label{
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(150, 150, 150);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+.user-box .input{
+    width: 100%;
+    padding: 5px;
+    color: rgb(150, 150, 150);
+    border: 0;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: 0;
+    background-color: #2c2c2e;
+}
+
+.user-box .input:focus,
+.user-box .input:valid{
+    border-bottom: 2px solid #8F7CEC;
+}
+
+
+.user-box .input:focus ~ label,
+.user-box .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #fff;
+}
+
+
+#menssagem-de-erro{
+    display: none;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    color: #fff;
+    
+}
+
+.button{
+    margin-top: 40px;
+}
+
+.button button{
+    padding: 10px 20px 10px 20px;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border: 1px solid #8F7CEC;
+    color: #fff;
+    background-color: #2c2c2e;
+   
+}
+
+.button button:hover{
+    background-color: #8F7CEC;
+    box-shadow: 0 0 5px #8F7CEC, 0 0 25px #8F7CEC,
+    0 0 50px #8F7CEC, 0 0 100px #8F7CEC;
+    border-radius: 5px;
+    color: #fff;
+}
