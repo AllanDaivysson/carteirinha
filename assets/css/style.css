@@ -155,9 +155,7 @@ h1{
     background-color: #2c2c2e;
 }
 
-.user-box .input:focus{
-    transform: scale(1);
-}
+
 
 .user-box .input:focus,
 .user-box .input:valid{
@@ -217,9 +215,8 @@ h1{
 
 .user-box .input{
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     color: rgb(150, 150, 150);
-    border: 0;
     border-bottom: 2px solid rgb(200, 200, 200);
     outline: 0;
     background-color: #2c2c2e;
