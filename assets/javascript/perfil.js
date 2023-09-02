@@ -1,21 +1,21 @@
 function infoAllan(){
-    window.location.href = "/assets/pages/carteirinha.html"
+    window.location.href = "../pages/carteirinha.html";
 
 }
 
 function infoThalita(){
-    window.location.href = "/assets/pages/carteirinhaThalita.html"
+    window.location.href = "../pages/carteirinhaThalita.html";
 
 }
 
 function infoHierro(){
-    window.location.href = "/assets/pages/carteirinhaHierro.html"
+    window.location.href = "../pages/carteirinhaHierro.html";
 
 }
 
 
 function infoRobso(){
-    window.location.href = "/assets/pages/carteirinhaRobso.html"
+    window.location.href = "../pages/carteirinhaRobso.html";
 
 }
 
